@@ -1,0 +1,434 @@
+=== PAGE 1 ===
+
+Confidential Internal RAG Testing Dataset v1.0
+Sample 1: Fiscal Trend Analysis (Chart + Real Table)
+Sample 1 demonstrates standard reporting. The visual chart indicates a general upward trend in both
+revenue and profit margins over the eight-quarter period. Specific numerical data is provided in the selectable
+table immediately following the chart.
+
+
+--- [IMAGE START] ---
+This is a Chart.
+
+**Trend Analysis:**
+The chart displays financial performance trends for Revenue and Profit from Q1-2022 to Q4-2023.
+*   **Revenue** shows an overall increasing trend, starting at approximately $4200M in Q1-2022, dipping slightly in Q2-2022, then generally rising to reach its peak at approximately $6050M in Q4-2023.
+*   **Profit** shows a more fluctuating trend. It started at around $850M in Q1-2022, dipped in Q2-2022, then rose significantly to a high plateau in Q3-2022/Q4-2022 (around $1350M-$1380M). It experienced a drop in Q1-2023, peaked at approximately $1550M in Q2-2023, and then declined to stabilize around $950M in Q3-2023 and Q4-2023.
+
+**Data Points (Approximate $M):**
+| Fiscal Period | Revenue | Profit |
+| :------------ | :------ | :----- |
+| Q1-2022       | 4200    | 850    |
+| Q2-2022       | 3950    | 700    |
+| Q3-2022       | 5050    | 1350   |
+| Q4-2022       | 4850    | 1380   |
+| Q1-2023       | 5000    | 1050   |
+| Q2-2023       | 5400    | 1550   |
+| Q3-2023       | 5300    | 950    |
+| Q4-2023       | 6050    | 950    |
+--- [IMAGE END] ---
+
+
+Table A.1: Selectable Text Data Table
+Period 
+Revenue ($M) 
+Profit ($M) 
+Active Users (K)
+Q1-2022 
+4273 
+809 
+427
+Q2-2022 
+3931 
+678 
+470
+Q3-2022 
+5089 
+1285 
+587
+Q4-2022 
+4868 
+1326 
+440
+Q1-2023 
+5033 
+1008 
+480
+Q2-2023 
+5380 
+1525 
+635
+Q3-2023 
+5269 
+946 
+439
+Q4-2023 
+6061 
+936 
+659
+Sample 2: Quarterly Comparison (Bar Chart Visual)
+This section, Sample 2, focuses on comparative visual analysis. The bar chart below provides a clear
+side-by-side comparison of Revenue vs Profit for each recorded period. Note the significant gap in Q4
+periods.
+
+=== PAGE 2 ===
+
+Confidential Internal RAG Testing Dataset v1.0
+
+
+--- [IMAGE START] ---
+This is a Chart.
+
+**Trend Analysis:**
+*   **Revenue:** Generally shows an upward trend from Q1-2023 ($5200M) to Q3-2024 ($7050M), with some fluctuations, before declining in Q4-2024 ($6100M).
+*   **Profit:** Fluctuated throughout the period. It peaked in Q2-2023 and Q1-2024 ($1650M) and reached its highest point in Q4-2024 ($2000M), despite a lower revenue in that quarter compared to Q3-2024. Profits were lowest in Q3-2023 and Q4-2023 ($1050M).
+
+**Data Points (Amount in $M):**
+*   **Q1-2023:** Revenue: 5200, Profit: 1450
+*   **Q2-2023:** Revenue: 6150, Profit: 1650
+*   **Q3-2023:** Revenue: 6600, Profit: 1050
+*   **Q4-2023:** Revenue: 6200, Profit: 1050
+*   **Q1-2024:** Revenue: 6150, Profit: 1650
+*   **Q2-2024:** Revenue: 6300, Profit: 1150
+*   **Q3-2024:** Revenue: 7050, Profit: 1350
+*   **Q4-2024:** Revenue: 6100, Profit: 2000
+--- [IMAGE END] ---
+
+
+
+=== PAGE 3 ===
+
+Confidential Internal RAG Testing Dataset v1.0
+Sample 3: Operational Review (Embedded Table Image)
+The following section reviews sample data set 3. The data below is provided as a screenshot from our legacy
+ERP system and is not selectable text. Therefore, vision capabilities are required to extract the values
+showing revenue peaking around $9867M.
+
+
+--- [IMAGE START] ---
+This is a Table.
+
+| | Period | Revenue ($M) | Profit ($M) | Active Users (K) |
+|---|---|---|---|---|
+| 0 | Q1-2024 | 7978 | 2114 | 752 |
+| 1 | Q2-2024 | 7394 | 2144 | 795 |
+| 2 | Q3-2024 | 8086 | 1321 | 821 |
+| 3 | Q4-2024 | 7723 | 1385 | 858 |
+| 4 | Q1-2025 | 8063 | 2411 | 797 |
+--- [IMAGE END] ---
+
+
+Sample 4: Fiscal Trend Analysis (Chart + Real Table)
+Sample 4 demonstrates standard reporting. The visual chart indicates a general upward trend in both
+revenue and profit margins over the eight-quarter period. Specific numerical data is provided in the selectable
+table immediately following the chart.
+
+
+--- [IMAGE START] ---
+The image is a line chart titled "Financial Performance Trends Analysis," displaying Revenue and Profit (in $M) across fiscal periods from Q1-2025 to Q4-2026.
+
+**Revenue (blue line):**
+- **Trend:** Shows an overall upward trend with some fluctuations. It starts at approximately $6,100M in Q1-2025 and rises to approximately $7,650M in Q4-2026.
+- **Data Points (approximate):**
+    - Q1-2025: $6,100M
+    - Q2-2025: $6,700M
+    - Q3-2025: $6,600M
+    - Q4-2025: $7,150M
+    - Q1-2026: $6,950M
+    - Q2-2026: $7,550M
+    - Q3-2026: $7,700M
+    - Q4-2026: $7,650M
+
+**Profit (orange dashed line):**
+- **Trend:** Displays more volatility initially, followed by a significant increase in 2026. It starts at approximately $1,400M in Q1-2025 and ends at approximately $2,150M in Q4-2026.
+- **Data Points (approximate):**
+    - Q1-2025: $1,400M
+    - Q2-2025: $1,900M
+    - Q3-2025: $1,400M
+    - Q4-2025: $1,400M
+    - Q1-2026: $1,300M
+    - Q2-2026: $1,600M
+    - Q3-2026: $2,250M
+    - Q4-2026: $2,150M
+--- [IMAGE END] ---
+
+
+Table A.1: Selectable Text Data Table
+Period 
+Revenue ($M) 
+Profit ($M) 
+Active Users (K)
+
+=== PAGE 4 ===
+
+Confidential Internal RAG Testing Dataset v1.0
+Q1-2025 
+6153 
+1406 
+714
+Q2-2025 
+6703 
+1853 
+625
+Q3-2025 
+6594 
+1394 
+715
+Q4-2025 
+7174 
+1379 
+758
+Q1-2026 
+6943 
+1285 
+759
+Q2-2026 
+7542 
+1585 
+832
+Q3-2026 
+7683 
+2248 
+863
+Q4-2026 
+7611 
+2127 
+691
+
+=== PAGE 5 ===
+
+Confidential Internal RAG Testing Dataset v1.0
+Sample 5: Quarterly Comparison (Bar Chart Visual)
+This section, Sample 5, focuses on comparative visual analysis. The bar chart below provides a clear
+side-by-side comparison of Revenue vs Profit for each recorded period. Note the significant gap in Q4
+periods.
+
+
+--- [IMAGE START] ---
+This is a Chart.
+
+**Chart Analysis: Financial Performance Trends Analysis**
+
+The chart displays Revenue and Profit in millions of dollars ($M) across eight fiscal periods from Q1-2026 to Q4-2027.
+
+**Trends:**
+*   **Revenue** shows a strong overall upward trend throughout the periods. It starts at approximately $5000M in Q1-2026, experiences a slight dip in Q2-2026, and then consistently grows to reach approximately $6350M by Q4-2027. The growth appears to accelerate during 2027.
+*   **Profit** also demonstrates a general upward trend, albeit with more fluctuations than revenue. It starts around $800M in Q1-2026, peaks in Q4-2026 at about $1200M, then dips in Q1-2027 to around $850M, before significantly increasing to approximately $1750M by Q4-2027.
+
+**Key Data Points (approximate):**
+*   **Q1-2026:** Revenue: $5000M, Profit: $800M
+*   **Q2-2026:** Revenue: $4950M, Profit: $950M
+*   **Q3-2026:** Revenue: $5100M, Profit: $980M
+*   **Q4-2026:** Revenue: $5200M, Profit: $1200M
+*   **Q1-2027:** Revenue: $5450M, Profit: $850M
+*   **Q2-2027:** Revenue: $6000M, Profit: $1150M
+*   **Q3-2027:** Revenue: $6250M, Profit: $1600M
+*   **Q4-2027:** Revenue: $6350M, Profit: $1750M
+--- [IMAGE END] ---
+
+
+Sample 6: Operational Review (Embedded Table Image)
+The following section reviews sample data set 6. The data below is provided as a screenshot from our legacy
+ERP system and is not selectable text. Therefore, vision capabilities are required to extract the values
+showing revenue peaking around $6870M.
+
+
+--- [IMAGE START] ---
+```markdown
+| Period | Revenue ($M) | Profit ($M) | Active Users (K) |
+|---|---|---|---|
+| Q1-2027 | 5475 | 1556 | 635 |
+| Q2-2027 | 5734 | 1602 | 595 |
+| Q3-2027 | 6089 | 1080 | 681 |
+| Q4-2027 | 6118 | 1403 | 654 |
+| Q1-2028 | 6170 | 1827 | 574 |
+```
+--- [IMAGE END] ---
+
+
+
+=== PAGE 6 ===
+
+Confidential Internal RAG Testing Dataset v1.0
+Sample 7: Fiscal Trend Analysis (Chart + Real Table)
+Sample 7 demonstrates standard reporting. The visual chart indicates a general upward trend in both
+revenue and profit margins over the eight-quarter period. Specific numerical data is provided in the selectable
+table immediately following the chart.
+
+
+--- [IMAGE START] ---
+The image is a line chart titled "Financial Performance Trends Analysis," displaying "Revenue" and "Profit" in millions of dollars ($M) across Fiscal Periods from Q1-2028 to Q4-2029.
+
+**Trends and Data Points:**
+
+*   **Revenue:**
+    *   Starts at approximately $7400M in Q1-2028.
+    *   Fluctuates, showing an initial increase to $7850M (Q2-2028), a dip, then another peak at $8100M (Q4-2028).
+    *   Dips to $7600M in Q2-2029 before rising steadily to its highest point of approximately $8400M in Q4-2029.
+    *   Overall, Revenue shows a general upward trend over the analyzed period.
+
+*   **Profit:**
+    *   Starts at approximately $1400M in Q1-2028.
+    *   Shows significant fluctuations: it peaks at $1900M (Q2-2028), then declines to its lowest point of $1200M (Q4-2028).
+    *   Experiences a sharp increase to its overall peak of $2100M (Q1-2029), followed by a steep drop to $1350M (Q2-2029).
+    *   It then recovers sharply to a new peak of approximately $2250M in Q4-2029.
+    *   Overall, Profit displays a highly volatile trend but ends significantly higher than its starting point.
+--- [IMAGE END] ---
+
+
+Table A.1: Selectable Text Data Table
+Period 
+Revenue ($M) 
+Profit ($M) 
+Active Users (K)
+Q1-2028 
+7379 
+1397 
+776
+Q2-2028 
+7827 
+1868 
+717
+Q3-2028 
+7653 
+1503 
+743
+Q4-2028 
+8140 
+1274 
+801
+Q1-2029 
+8084 
+2071 
+742
+Q2-2029 
+7533 
+1339 
+822
+Q3-2029 
+7964 
+1422 
+812
+Q4-2029 
+8591 
+2235 
+793
+Sample 8: Quarterly Comparison (Bar Chart Visual)
+This section, Sample 8, focuses on comparative visual analysis. The bar chart below provides a clear
+side-by-side comparison of Revenue vs Profit for each recorded period. Note the significant gap in Q4
+periods.
+
+=== PAGE 7 ===
+
+Confidential Internal RAG Testing Dataset v1.0
+
+
+--- [IMAGE START] ---
+This image is a Chart.
+
+**Chart Analysis: Financial Performance Trends Analysis (Q1-2029 to Q4-2030)**
+
+The bar chart displays Revenue and Profit (in $M) over eight fiscal periods.
+
+**Revenue Trend:**
+*   Revenue began at approximately $4300M in Q1-2029, peaked at $5000M in Q2-2029, then slightly declined to around $4700-4750M for Q3 and Q4-2029.
+*   It showed a consistent increase from Q4-2029 through Q3-2030, reaching its highest point at approximately $5500M in Q3-2030.
+*   Revenue then decreased to roughly $4900M in Q4-2030.
+
+**Profit Trend:**
+*   Profit fluctuated between approximately $1000M and $1250M throughout 2029.
+*   It rose in Q1-2030 to around $1400M and remained strong at approximately $1350M in Q2-2030.
+*   Profit dropped significantly to about $1000M in Q3-2030 (tying its lowest points with Q2 & Q4-2029).
+*   It then saw a substantial increase, reaching its peak at approximately $1650M in Q4-2030.
+
+**Key Data Points:**
+*   **Highest Revenue:** Q3-2030 at ~$5500M
+*   **Lowest Revenue:** Q1-2029 at ~$4300M
+*   **Highest Profit:** Q4-2030 at ~$1650M
+*   **Lowest Profit:** Q2-2029, Q4-2029, and Q3-2030 at ~$1000M
+--- [IMAGE END] ---
+
+
+
+=== PAGE 8 ===
+
+Confidential Internal RAG Testing Dataset v1.0
+Sample 9: Operational Review (Embedded Table Image)
+The following section reviews sample data set 9. The data below is provided as a screenshot from our legacy
+ERP system and is not selectable text. Therefore, vision capabilities are required to extract the values
+showing revenue peaking around $8180M.
+
+
+--- [IMAGE START] ---
+The image is a table.
+
+```markdown
+|   | Period  | Revenue ($M) | Profit ($M) | Active Users (K) |
+|---|---------|--------------:|------------:|-----------------:|
+| 0 | Q1-2030 |         6816 |        1694 |              656 |
+| 1 | Q2-2030 |         7252 |        1225 |              783 |
+| 2 | Q3-2030 |         7120 |        1682 |              626 |
+| 3 | Q4-2030 |         7069 |        1474 |              637 |
+| 4 | Q1-2031 |         8142 |        1429 |              908 |
+```
+--- [IMAGE END] ---
+
+
+Sample 10: Fiscal Trend Analysis (Chart + Real Table)
+Sample 10 demonstrates standard reporting. The visual chart indicates a general upward trend in both
+revenue and profit margins over the eight-quarter period. Specific numerical data is provided in the selectable
+table immediately following the chart.
+
+
+--- [IMAGE START] ---
+This is a chart showing Financial Performance Trends Analysis.
+
+**Trend and Data Points:**
+
+*   **Revenue (Blue line):** Shows a generally increasing trend over the periods. It starts at approximately $6,600M in Q1-2031, rises consistently to $7,750M in Q1-2032, experiences a slight dip to $7,600M in Q2-2032, and then continues to increase sharply, reaching its highest point at approximately $9,050M in Q4-2032.
+*   **Profit (Orange dashed line):** Displays a more volatile but overall upward trend. It begins around $1,550M in Q1-2031, drops to $1,100M in Q2-2031, then rises significantly to a peak of $2,200M in Q4-2031. After this, it declines to $1,300M in Q1-2032 and further to $1,200M in Q2-2032, before recovering and rising to approximately $2,250M in Q4-2032.
+--- [IMAGE END] ---
+
+
+Table A.1: Selectable Text Data Table
+Period 
+Revenue ($M) 
+Profit ($M) 
+Active Users (K)
+
+=== PAGE 9 ===
+
+Confidential Internal RAG Testing Dataset v1.0
+Q1-2031 
+6573 
+1540 
+744
+Q2-2031 
+7167 
+1081 
+683
+Q3-2031 
+7246 
+1421 
+759
+Q4-2031 
+7450 
+2179 
+694
+Q1-2032 
+7713 
+1303 
+846
+Q2-2032 
+7566 
+1224 
+849
+Q3-2032 
+8342 
+1640 
+795
+Q4-2032 
+9118 
+2232 
+825
+
